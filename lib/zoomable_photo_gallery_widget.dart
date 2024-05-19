@@ -149,7 +149,8 @@ class _ZoomablePhotoGalleryState extends State<ZoomablePhotoGallery>
           maxScale: widget.maxZoom,
           onInteractionStart: _onInteractionStart,
           onInteractionEnd: _onInteractionEnd,
-          alignPanAxis: true,
+          alignment: Alignment.center,
+          // alignPanAxis: true,
           panEnabled: false,
           child: widget.imageList[index]),
     );
